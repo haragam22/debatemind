@@ -1,29 +1,4 @@
 {
-  "template_stats": {
-    "0": {
-      "count": 2,
-      "sum_reward": 8.0
-    },
-    "1": {
-      "count": 0,
-      "sum_reward": 0.0
-    },
-    "2": {
-      "count": 0,
-      "sum_reward": 0.0
-    },
-    "3": {
-      "count": 0,
-      "sum_reward": 0.0
-    },
-    "4": {
-      "count": 0,
-      "sum_reward": 0.0
-    },
-    "5": {
-      "count": 0,
-      "sum_reward": 0.0
-    }
-  },
+  "template_stats": {},
   "epsilon": 0.25
 }
