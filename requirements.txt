@@ -4,3 +4,4 @@ python-dotenv
 pandas
 numpy
 tqdm
+altair==0.5.2

@@ -12,7 +12,7 @@ if not OPENROUTER_API_KEY:
     raise EnvironmentError("⚠️ Missing OPENROUTER_API_KEY. Please set it in your .env file.")
 
 # Models: you can change to any model available via OpenRouter
-MODEL_COACHED = os.getenv("MODEL_COACHED", "mistralai/mistral-7b-instruct")
+MODEL_COACHED = os.getenv("MODEL_COACHED", "meta-llama/llama-3.3-8b-instruct:free")
 MODEL_OPPONENT = os.getenv("MODEL_OPPONENT", "mistralai/mistral-7b-instruct")
 MODEL_JUDGE = os.getenv("MODEL_JUDGE", "mistralai/mistral-7b-instruct") 
 
