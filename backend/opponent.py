@@ -1,14 +1,22 @@
 # backend/opponent.py
-from .utils import call_openrouter, sanitize_topic
+from .utils import call_openrouter, sanitize_topic, load_pdf_context
 from .config import MODEL_OPPONENT
 
-SYSTEM_MESSAGE = "You are an opposing debater. Your job is to rebut the last argument concisely."
+SYSTEM_MESSAGE = "You are an opposing debater. Your job is to rebut the last argument concisely, using clear reasoning and evidence where possible."
 
 def build_opponent_prompt(last_argument: str, topic: str) -> list:
     topic = sanitize_topic(topic)
+    pdf_context = load_pdf_context()
     messages = [
         {"role":"system", "content": SYSTEM_MESSAGE},
-        {"role":"user", "content": f"Topic: {topic}\nArgument to rebut:\n{last_argument}\n\nProvide a 3-5 sentence rebuttal addressing weaknesses and counterpoints."}
+        {
+            "role": "user",
+            "content": (
+                f"Instruction: {last_argument}\n"
+                f"Topic: {topic}\n\n"
+                f"Reference Material (from uploaded PDF):\n{pdf_context[:3000]}"
+            ),
+        }
     ]
     return messages
 

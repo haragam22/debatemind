@@ -4,6 +4,7 @@ import re
 from typing import Dict, Any
 from .config import OPENROUTER_API_KEY, OPENROUTER_API_URL, HTTP_TIMEOUT
 import httpx
+import os
 
 def sanitize_topic(topic: str) -> str:
     # basic sanitization to avoid huge payloads or control char injection
@@ -24,7 +25,7 @@ def call_openrouter(messages, model):
     payload = {
         "model": model,
         "messages": messages,
-        "temperature": 0.3
+        "temperature": 0.7
     }
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
@@ -76,3 +77,10 @@ def parse_judge_json(raw: str) -> Dict[str, Any]:
             "logic_opponent":5, "relevance_opponent":5, "clarity_opponent":5, "persuasiveness_opponent":5,
             "total_opponent":5.0, "notes_opponent":"fallback"
         }
+
+def load_pdf_context(file_path="data/extracted_text.txt"):
+    """Load extracted PDF text as context for debates."""
+    if not os.path.exists(file_path):
+        return ""
+    with open(file_path, "r", encoding="utf-8") as f:
+        return f.read()

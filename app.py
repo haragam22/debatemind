@@ -13,7 +13,8 @@ from backend.opponent import generate_opponent_argument
 from backend.judge import evaluate
 from backend.utils import sanitize_topic
 from backend.config import MAX_ROUNDS 
-
+from PyPDF2 import PdfReader
+import os
 # --- 1. Initialization and Setup ---
 init_files() 
 rl = RLAgent() 
@@ -184,6 +185,59 @@ if "view_round_idx" not in st.session_state:
     st.session_state.view_round_idx = None
 if "history_search" not in st.session_state:
     st.session_state.history_search = ""
+
+# --- PDF Auto-Extraction Section ---
+st.markdown("## Add custom context to the Debate")
+
+st.markdown("""
+    <style>
+    /* Change the border color and background of file uploader */
+    div[data-testid="stFileUploader"] > section {
+        background-color: #1f2937;
+        border-left: 4px solid #38bdf8;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    /* Change the text color and font */
+    div[data-testid="stFileUploader"] label {
+        color: #000000 !important; 
+        font-weight: 600;
+    }
+
+    /* On hover */
+    div[data-testid="stFileUploader"] > section:hover {
+        background-color: #1f2937; /* lighter hover */
+        border-color: #0056b3;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+uploaded_pdf = st.file_uploader("Upload a PDF file", type=["pdf"])
+
+if uploaded_pdf:
+    try:
+        # Define your output path (ensure /data exists)
+        output_dir = "data"
+        os.makedirs(output_dir, exist_ok=True)
+        output_file = os.path.join(output_dir, "extracted_text.txt")
+
+        # Extract text
+        pdf_reader = PdfReader(uploaded_pdf)
+        extracted_text = ""
+
+        for page_num, page in enumerate(pdf_reader.pages):
+            page_text = page.extract_text()
+            if page_text:
+                extracted_text += f"\n\n--- Page {page_num + 1} ---\n{page_text}"
+
+        # Save text automatically
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write(extracted_text)
+
+    except Exception as e:
+        st.error(f"❌ Error processing PDF: {e}")
+
 
 # --- 5. Sidebar Control Panel ---
 with st.sidebar:

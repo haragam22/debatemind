@@ -4,4 +4,9 @@ dotenv
 pandas
 numpy
 tqdm
-altair==0.5.2
+altair
+PyPDF2
+re
+typing
+json
+threading
