@@ -1,6 +1,6 @@
 streamlit
 httpx
-python-dotenv
+dotenv
 pandas
 numpy
 tqdm
