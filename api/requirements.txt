@@ -3,7 +3,6 @@ pydantic
 fastapi
 uvicorn
 dotenv
-os
 typing
 json
 re
