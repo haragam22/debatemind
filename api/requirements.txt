@@ -4,6 +4,3 @@ fastapi
 uvicorn
 dotenv
 typing
-json
-re
-httpx
