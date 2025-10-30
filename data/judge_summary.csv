@@ -1,15 +1,2 @@
 round,total_coached,total_opponent,notes_coached,notes_opponent
-0,33.0,33.0,"Strong analogy, but lacks depth on counterpoints.","Balanced, addresses key flaws in coached argument."
-1,35.0,31.0,"Strong evidence, clear structure, but could address counterarguments more.","Good points, but lacks specific evidence to counter remote work benefits."
-2,34.0,30.0,"Strong evidence, clear structure, but could address counterpoints more.","Good counterpoints, but lacks specific data to support claims."
-0,10.0,10.0,"The argument is well-structured, uses specific examples, and presents a clear position.","The argument acknowledges counterpoints and presents a balanced view, but could be more persuasive with stronger evidence."
-1,10.0,10.0,Strong ethical and evidence-based reasoning. Minor assumption about universal applicability.,Good counterpoints but lacks specific evidence. Somewhat general.
-0,10.0,10.0,"Strong structure, but some claims lack depth. Persuasive but could use more evidence.","Well-reasoned, addresses counterarguments, and provides balance. More persuasive due to evidence."
-0,10.0,10.0,Strong evidence and structure. Could address counterarguments more.,Good points but lacks specific evidence. More balanced but less focused.
-0,10.0,10.0,"Strong evidence, clear structure, and ethical framing.",Good counterpoints but lacks specific evidence.
-1,10.0,10.0,"Strong evidence, clear structure, but could address counterarguments more.","Good points, but lacks specific evidence and could be more concise."
-2,10.0,10.0,"Strong structure, evidence, and ethical framing. Could cite more diverse studies.",Good counterpoints but lacks specific evidence and overgeneralizes.
-0,34.0,30.0,"Strong evidence, clear structure, but could address counterpoints more.",Good points but lacks specific studies to back claims.
-0,32.0,29.0,Strong emotional appeal but lacks counterargument depth.,Good points but less emotional resonance.
-1,31.0,31.0,Strong emotional appeal but lacks concrete evidence. Clear structure.,Balanced argument with valid points but less emotional impact.
-0,34.0,30.0,"Strong evidence, clear structure, but could address counterarguments.",Good points but lacks specific evidence to counter the Stanford study.
+0,30,34,"The argument presents logical points with relevant evidence, but it could be more persuasive by addressing counterarguments and providing stronger evidence for the negative impacts of remote work.","The argument presents logical points with relevant evidence, and is clear and persuasive in demonstrating the potential negatives of remote work. However, it could be more effective by addressing potential benefits of remote work and providing stronger evidence for the impact on productivity."

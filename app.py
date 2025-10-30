@@ -4,6 +4,8 @@ import numpy as np
 import time
 import io
 import json
+import os
+from PyPDF2 import PdfReader
 
 # --- Preserve Backend Imports ---
 from backend.memory_manager import init_files, read_debate, read_judge, append_round, append_judge
@@ -11,8 +13,18 @@ from backend.rl_agent import RLAgent
 from backend.debater import generate_coached_argument
 from backend.opponent import generate_opponent_argument
 from backend.judge import evaluate
-from backend.utils import sanitize_topic
+# IMPORTANT: Updated import to include load_pdf_context for clarity (though it's used in judge.py)
+from backend.utils import sanitize_topic, load_pdf_context 
 from backend.config import MAX_ROUNDS 
+
+# --- Helper function for score formatting ---
+def format_score_as_points(score_val):
+    """Formats a score (expected 0-10) to points, assuming it's already clamped."""
+    try:
+        score = float(score_val)
+        return f"{score:.1f}" # Display one decimal place for clarity
+    except (ValueError, TypeError):
+        return "N/A"
 
 # --- 1. Initialization and Setup ---
 init_files() 
@@ -24,7 +36,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- 2. Custom Styling and Theme (Ensuring Consistency) ---
+# --- 2. Custom Styling and Theme (UPDATED with Blue/Black Popup Styles) ---
 STYLING_CSS = """
     <style>
         /* General Dark Theme */
@@ -133,6 +145,71 @@ STYLING_CSS = """
             border: 1px solid #f59e0b;
         }
         .small-muted { color: #9aa4b2; font-size: 0.9em; }
+        
+        /* --- NEW WINNER POPUP STYLES (BLUE/BLACK THEME) --- */
+        .winner-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.9); /* Opaque black overlay */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0; 
+            animation: fadeIn 0.5s forwards;
+        }
+
+        .winner-content {
+            /* Bluish-Black Theme - Set to a reasonable, considerable size */
+            background: #0d1117; 
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            /* Blue shiny border and glow */
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.8), inset 0 0 10px rgba(56, 189, 248, 0.4); 
+            transform: scale(0.8);
+            animation: zoomIn 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            border: 3px solid #38bdf8;
+            width: 80%;
+            max-width: 500px; /* Considerable size */
+        }
+
+        .winner-content h1 {
+            font-size: 3.5em !important;
+            color: #38bdf8 !important; /* Blue for the winner message */
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px rgba(56, 189, 248, 0.5); 
+        }
+        .winner-content h2 {
+            font-size: 2em !important;
+            color: white !important; /* Final Scores text in white */
+            margin-top: 10px;
+        }
+        .winner-content p {
+            font-size: 1.4em !important;
+            color: white !important; /* Score lines in white */
+            line-height: 1.8;
+        }
+        
+        /* Animation keyframes */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes zoomIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); text-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
+            50% { transform: scale(1.05); text-shadow: 0 0 30px rgba(255, 255, 255, 1); }
+            100% { transform: scale(1); text-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
+        }
+        
     </style>
 """
 st.markdown(STYLING_CSS, unsafe_allow_html=True)
@@ -184,6 +261,74 @@ if "view_round_idx" not in st.session_state:
     st.session_state.view_round_idx = None
 if "history_search" not in st.session_state:
     st.session_state.history_search = ""
+    
+# New state for winner popup
+if "show_winner_popup" not in st.session_state:
+    st.session_state.show_winner_popup = False
+if "winner_info" not in st.session_state:
+    st.session_state.winner_info = None
+
+# --- PDF Auto-Extraction Section ---
+st.markdown("## Add custom context to the Debate")
+
+st.markdown("""
+    <style>
+    /* Change the border color and background of file uploader */
+    div[data-testid="stFileUploader"] > section {
+        background-color: #1f2937;
+        border-left: 4px solid #38bdf8;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    /* Change the text color and font */
+    div[data-testid="stFileUploader"] label {
+        /* Adjusted color to be visible on dark background, assuming Streamlit handles file uploader label style */
+        color: #f0f4f8 !important; 
+        font-weight: 600;
+    }
+
+    /* On hover */
+    div[data-testid="stFileUploader"] > section:hover {
+        background-color: #1f2937; /* lighter hover */
+        border-color: #0056b3;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+uploaded_pdf = st.file_uploader("Upload a PDF file", type=["pdf"])
+
+if uploaded_pdf:
+    try:
+        # Define your output path (ensure /data exists)
+        output_dir = "data"
+        os.makedirs(output_dir, exist_ok=True)
+        output_file = os.path.join(output_dir, "extracted_text.txt")
+
+        # Extract text
+        pdf_reader = PdfReader(uploaded_pdf)
+        extracted_text = ""
+
+        for page_num, page in enumerate(pdf_reader.pages):
+            page_text = page.extract_text()
+            if page_text:
+                extracted_text += f"\n\n--- Page {page_num + 1} ---\n{page_text}"
+
+        # Save text automatically
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write(extracted_text)
+        
+        # --- START: Pop-up Confirmation Feature ---
+        st.success("✅ **PDF context saved!** The judge can now use this material to evaluate arguments.")
+        with st.expander("Preview Extracted Text"):
+            # Show the first 1000 characters for confirmation
+            preview = extracted_text[:1000] if extracted_text else "No extractable text found on the PDF pages."
+            st.code(preview)
+        # --- END: Pop-up Confirmation Feature ---
+
+    except Exception as e:
+        st.error(f"❌ Error processing PDF: {e}")
+
 
 # --- 5. Sidebar Control Panel ---
 with st.sidebar:
@@ -220,6 +365,8 @@ with st.sidebar:
             st.session_state.history = []
             st.session_state.view_round_idx = None
             st.session_state.history_search = ""
+            st.session_state.show_winner_popup = False # Reset popup
+            st.session_state.winner_info = None # Reset winner info
 
             # --- Auto-start Round 1 Logic (Copied from the NEXT ROUND button) ---
             with st.spinner("Starting new simulation and drafting Round 1 arguments..."):
@@ -295,6 +442,7 @@ with st.sidebar:
     else:
         if st.button("Go to Dashboard", use_container_width=True, key="nav_dashboard_btn_inactive"):
             st.session_state.page = "Dashboard"
+            st.session_state.show_winner_popup = False # Close popup if navigating away
             st.rerun()
 
     # Back to Arena button
@@ -303,6 +451,7 @@ with st.sidebar:
     else:
         if st.button("Back to Arena", use_container_width=True, key="nav_arena_btn_inactive"):
             st.session_state.page = "Debate Arena"
+            st.session_state.show_winner_popup = False # Close popup if navigating away
             st.rerun()
 
     st.markdown('<div class="sidebar-divider"></div>', unsafe_allow_html=True)
@@ -320,6 +469,8 @@ with st.sidebar:
         st.session_state.history = []
         st.session_state.view_round_idx = None
         st.session_state.history_search = ""
+        st.session_state.show_winner_popup = False # Reset popup
+        st.session_state.winner_info = None # Reset winner info
         st.toast("Storage reset successful.")
         st.rerun()
         
@@ -355,11 +506,13 @@ with st.sidebar:
         if st.button("Open selected", use_container_width=True, key="open_selected_btn_jump"): 
             st.session_state.view_round_idx = mapping[sel_label]
             st.session_state.page = "Debate Arena"
+            st.session_state.show_winner_popup = False # Close popup if navigating away
             st.rerun()
 
         if st.button("Clear selection", use_container_width=True, key="back_to_live_sidebar_btn_jump"): 
             st.session_state.view_round_idx = None
             st.session_state.page = "Debate Arena"
+            st.session_state.show_winner_popup = False # Close popup if navigating away
             st.rerun()
             
     # --- 5.5 DOWNLOAD HISTORY ---
@@ -422,6 +575,28 @@ if st.session_state.page == "Debate Arena":
                     
                     if st.button("View Final Results", use_container_width=True, key="view_final_arena", type="primary"): 
                         st.session_state.page = "Dashboard"
+                        # --- WINNER CALCULATION AND POPUP TRIGGER ---
+                        jd_final = read_judge() # Read final judge data
+                        if not jd_final.empty:
+                            total_coached_score = jd_final["total_coached"].astype(float).sum()
+                            total_opponent_score = jd_final["total_opponent"].astype(float).sum()
+                            
+                            winner_message = ""
+                            if total_coached_score > total_opponent_score:
+                                winner_message = "Coach Debater Wins!"
+                            elif total_opponent_score > total_coached_score:
+                                winner_message = "Opponent Wins!"
+                            else:
+                                winner_message = "It's a Tie!"
+                            
+                            st.session_state.winner_info = {
+                                "winner_message": winner_message,
+                                "coach_score": total_coached_score,
+                                "opponent_score": total_opponent_score
+                            }
+                            st.session_state.show_winner_popup = True
+                        else:
+                            st.warning("No judge data available to determine a winner.")
                         st.rerun()
                     
                 # The NEXT ROUND button should only appear if the simulation is NOT finished
@@ -482,6 +657,8 @@ if st.session_state.page == "Debate Arena":
                         st.toast(f"Round {display_current_round + 1} completed.", icon="✅")
                         time.sleep(0.5) 
                         st.session_state.view_round_idx = None
+                        st.session_state.show_winner_popup = False # Ensure popup is off
+                        st.session_state.winner_info = None # Clear winner info
                         st.rerun() 
 
         # --- Display Latest/Selected Round Arguments and Evaluation ---
@@ -514,15 +691,18 @@ if st.session_state.page == "Debate Arena":
                         if st.button("Previous", use_container_width=True, key="arena_prev_btn", type="primary"): 
                             prev_idx = max(df["round"].min(), sel_round_internal - 1)
                             st.session_state.view_round_idx = prev_idx
+                            st.session_state.show_winner_popup = False # Close popup
                             st.rerun()
                     with coln:
                         if st.button("Next", use_container_width=True, key="arena_next_btn", type="primary"): 
                             next_idx = min(df["round"].max(), sel_round_internal + 1)
                             st.session_state.view_round_idx = next_idx
+                            st.session_state.show_winner_popup = False # Close popup
                             st.rerun()
                     with colb:
                         if st.button("Back to Live", use_container_width=True, key="arena_back_to_live_btn", type="primary"):
                             st.session_state.view_round_idx = None
+                            st.session_state.show_winner_popup = False # Close popup
                             st.rerun()
                     st.markdown('<div class="sidebar-divider"></div>', unsafe_allow_html=True)
 
@@ -677,4 +857,56 @@ elif st.session_state.page == "Dashboard":
         
         with st.expander("View Full Round Details Table"):
             # When displaying raw dataframes, the internal 0-indexed round is fine
-            st.dataframe(df.assign(Round_Display=df["round"] + 1), use_container_width=True) # Added 1-indexed column for clarity
+            st.dataframe(df.assign(Round_Display=df["round"] + 1), use_container_width=True) 
+
+# --- 7. WINNER POPUP RENDERING (STREAMLIT NATIVE DISMISS) ---
+if st.session_state.show_winner_popup and st.session_state.winner_info:
+    
+    # 1. Prepare Data
+    winner_info = st.session_state.winner_info
+    winner_message = winner_info['winner_message']
+    winner_message = winner_message.replace("🌟", "").replace("💥", "").replace("🤝", "").strip()
+    
+    # 2. Render Custom HTML Overlay (Visual Only)
+    st.markdown(
+        f"""
+        <div class="winner-overlay" id="winner-overlay">
+            <div class="winner-content">
+                <h1>{winner_message}</h1>
+                <h2 style='color: white !important;'>Final Scores:</h2> 
+                <p>
+                    <span style='color: #38bdf8;'>Coach Debater:</span> <b>{format_score_as_points(winner_info['coach_score'])}</b> <br>
+                    <span style='color: #ef4444;'>Opponent:</span> <b>{format_score_as_points(winner_info['opponent_score'])}</b>
+                </p>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    # 3. Render the Functional Streamlit Button (Visible and clickable when popup is active)
+    # The button is rendered outside the HTML overlay but becomes the only clickable element
+    # (since the overlay covers the rest of the screen).
+    
+    # Use st.container() and centering to make the button look good when it's the only element
+    st.markdown("""
+        <div style='display: flex; justify-content: center; margin-top: 20px; z-index: 1001;'>
+            <div id='dismiss-button-container-outer' style='width: 300px;'></div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    # Use a placeholder to inject the button in the visible area
+    button_placeholder = st.empty()
+    with button_placeholder.container():
+        # Adds space below the overlay for cleaner separation
+        st.markdown("<h3 style='height: 40px;'>&nbsp;</h3>", unsafe_allow_html=True) 
+        
+        # Center the button using Streamlit columns
+        col_left, col_center, col_right = st.columns([1, 2, 1])
+        with col_center:
+            if st.button("Go to Dashboard & Dismiss Results", key="dismiss_winner_popup_btn", type="primary", use_container_width=True):
+                # Functional Logic: Clears popup state and redirects page
+                st.session_state.show_winner_popup = False
+                st.session_state.winner_info = None
+                st.session_state.page = "Dashboard"
+                st.rerun()
