@@ -9,10 +9,19 @@ SYSTEM_MESSAGE = "You are an expert debater. Produce a concise, structured argum
 
 def build_coached_prompt(template_instruction: str, topic: str, previous: List[str]=None) -> List[Dict]:
     topic = sanitize_topic(topic)
+    pdf_context = load_pdf_context()
     messages = [
-        {"role":"system", "content": SYSTEM_MESSAGE},
-        {"role":"user", "content": f"Instruction: {template_instruction}\nTopic: {topic}"}
+        {"role": "system", "content": SYSTEM_MESSAGE},
+        {
+            "role": "user",
+            "content": (
+                f"Instruction: {template_instruction}\n"
+                f"Topic: {topic}\n\n"
+                f"Reference Material (from uploaded PDF):\n{pdf_context[:3000]}"
+            ),
+        }
     ]
+    
     if previous:
         prev_text = "\n\n".join(previous[-2:])
         messages.append({"role":"user", "content": f"Previous rounds (last two):\n{prev_text}"})

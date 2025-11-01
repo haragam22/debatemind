@@ -1,0 +1,7 @@
+typing
+pydantic
+fastapi
+uvicorn
+dotenv
+typing
+httpx
