@@ -1,0 +1,1013 @@
+
+
+--- Page 1 ---
+ 
+ The Telomere Divide:  How Lifestyle Shapes Aging Across States  
+Aryaman  Bhardwaj1; Atishvi  Gupta2; Keshav Goel3; Harasis Singh Lamba4; Mohd. Faiz5 
+1,2,3,4,5Scholar,  Maharaja  Agrasen  Institute  of Technology,  PSP Area, Rohini, Delhi, India  
+Corresponding  Author  Email:  aryamanbhardwaj87@gmail.com  
+ 
+ 
+Abstract  — Telomeres —the chromosomal end -caps that safeguard genomic integrity —shorten progressively 
+with age and are profoundly influenced by lifestyle and environmental exposures. This study investigates how 
+disparities in lifestyle -driven factors across Indian sta tes contribute to telomere attrition, effectively creating a 
+“Telomere Divide” across the nation. Focusing on three key determinants —tobacco use, obesity prevalence, and 
+ambient PM 2.5 pollution levels —we developed a weighted, evidence -backed mod el to evaluate each state’s 
+relative telomere health risk. States were then ranked based on their cumulative scores, revealing stark variations 
+in biological aging patterns shaped by socio -environmental conditions. The analysis highlights how certain 
+regio ns face accelerated aging risks due to a convergence of high pollutant exposure and unhealthy lifestyle 
+habits, while others benefit from more favo urable health and environmental conditions. By mapping these 
+disparities, this study not only underscores the  critical role of lifestyle in cellular aging but also calls for targeted 
+public health strategies to bridge the telomere gap and promote equitable aging outcomes across India.  
+ 
+Keywords:  Telomere Attrition , Biological Aging , Air Pollution , Tobacco Use , Obesity , Lifestyle 
+Factors , India  
+ 
+I. Introduction  
+ 
+I.I Telomeres & Agin g 
+Aging is a complex, multifactorial biological process influenced not only by genetics but also 
+profoundly shaped by lifestyle and environmental  factors.  [1] 
+At the heart of this biological aging lies a crucial molecular component: the telomere —the repetitive 
+nucleotide sequences (TTAGGG in humans) found at the ends of linear chromosomes. These 
+structures serve as protective caps that prevent chromosomal frayin g and fusion during cell division.  
+[2,3].  Each time a somatic cell divides, a portion of its telomeric DNA is lost due to the “end -
+replication problem,” a limitation of DNA polymerase  [4]. Over time, this progressive telomere 
+shortening —also known as telomere attrition —leads to critically short telomeres, triggering cellular 
+senescence, apoptosis, or genomic  instability  (Refer to Fig.1)  [5,6] . 
+ 
+ 
+ 
+ 
+ TELOMERE SHORTENING WIT H AGE  
+Fig.1 T elomere Shortening  
+
+
+--- Page 2 ---
+ 
+ In essence, telomere length is a molecular clock of cellular aging, and its rate of attrition reflects the 
+pace at which the body is biologically aging  [2]. While telomere shortening is a natural consequence 
+of cellular replication, various external and internal factors can accelerate or decelerate this process,  
+[1,7]  creating disparities in biological aging among populations that may otherwise appear similar in 
+chronological  age. 
+ 
+I.II Telomere Attrition and its Co rrelation with  the Lifestyle F actors  
+Telomere attrition refers to the rate at which telomeres shorten over time. Although genetically 
+inherited telomere length varies between individuals, it is profoundly affected by environmental and 
+lifestyle factors  [8]. Inflammation and oxidative stress are two major pathways that accelerate 
+telomere shortening, and both are significantly influenced by how we live  [7,9]. Thus, lifestyle is not 
+just a behavio ural choice —it becomes a molecular determinant  of health span . 
+Emerging studies across different populations have shown that telomere length is correlated with 
+several lifestyle behavio urs and exposures.  These  include:  
+1. Air Pollution: Chronic exposure to air pollutants, particularly fine particulate matter (PM 2.5), 
+nitrogen dioxide (NO₂), and ozone (O₃), has been shown to induce oxidative DNA damage 
+and systemic inflammation. These pollutants can penetrate the bloodstream via alveolar 
+exchange, affecting multiple organs and contributing to telomere attrition  [10,11] . Urban 
+populations exposed to poor air quality consistently show reduced leukocyte telomere 
+length, highlighting air pollution as a critical environmental determinant of biological  aging.  
+2. Tobacco Use: Tobacco consumption is a major modifiable risk factor contributing to 
+increased oxidative stress and inflammation, both of which accelerate telomere shortening. 
+Several epidemiological studies have demonstrated that smokers have significantly shorter 
+telomeres compared to non -smokers of the same chronological age  [12,13] . The oxidative 
+compounds in cigarette smoke damage DNA and impair telomerase activity, thereby 
+hastening cellular aging. The dose -response relationship indicates that telomere length 
+decreases with the number of cigarettes smoked per day and the duration of 
+smoking  history.  Pollution and Environmental Exposure: Air pollution —particularly 
+exposure to PM 2.5, heavy metals, and industrial pollutants —can induce systemic 
+inflammation, contributing significantly to telomere attrition.  
+3. Obesity: Obesity is associated with increased systemic inflammation and elevated oxidative 
+stress levels, both known drivers of telomere attrition. Adipose tissue, particularly visceral 
+fat, produces pro -inflammatory cytokines like IL -6 and TNF -α, which ha ve been implicated 
+in telomere shortening  [8,14] . Research suggests that individuals with higher body mass 
+index (BMI) tend to have shorter telomeres, and the effect is more pronounced in younger 
+age groups, indicating early cellular aging. Moreover, obesi ty-related metabolic 
+dysfunctions such as insulin resistance and dyslipidaemia  further exacerbate  telomere  loss. 
+Socio -economic and Public Health Indicators: Access to healthcare, sanitation, education, 
+and nutritional support indirectly impact telomere biology by shaping lifestyle and disease 
+prevalence.  
+4. Psychological Stress : Psychological stress, both acute and chronic, has a substantial impact 
+on telomere biology. Activation of the hypothalamic -pituitary -adrenal (HPA) axis in 
+response to stress elevates cortisol levels, which in turn suppress telomerase activity and 
+promote o xidative damage. Numerous studies have associated high levels of perceived 
+stress, trauma, and caregiving burden with significantly shorter telomeres  [9,15] . 
+Furthermore, stress -related behavio urs such as poor sleep, substance use, an d physical 
+inactivity further compound the effects of psychological distress on telomere  length.  
+
+--- Page 3 ---
+ 
+  
+5. Dietary Patterns:  Nutrition plays a central role in modulating oxidative stress and 
+inflammation —key mechanisms behind telomere shortening  [16,17] . Diets rich in processed 
+meats, refined sugars, and saturated fats are associated with increased telomere attrition, 
+whereas antioxidant -rich diets such as the Mediterranean diet (comprising fruits, vegetables, 
+whole grains, legumes, nuts, olive oil, and fish) are correlated with longer telomeres. 
+Micronutrients such  as vitamin C, vitamin E, folate, omega -3 fatty acids, and polyphenols 
+are known to reduce oxidative stress and promote genomic stability, thereby slowing the 
+telomer e shortening  process.  
+6.  Physical Activity: Regular physical activity is among the most potent lifestyle interventions 
+for maintaining telomere length. Exercise reduces systemic inflammation, enhances 
+antioxidant defen ces, improves insulin sensitivity, and lowers stress hormone levels —all of 
+which are beneficial for telomere preservation  [18,19 ]. Studies reveal that individuals 
+engaging in moderate -to-vigorous physical activity have significantly longer telomeres 
+compared to sedentary individuals. Furthermore, physical fitness is inversely associated 
+with cellular aging markers, reinforcing the role of exercise in promoting healthy  longevity.  
+Chronic Stress: High levels of psychological stress and poor stress -coping mechanisms are 
+strongly associated with accelerated telomere erosion. Stress activates the hypothalamic -
+pituitary -adrenal (HPA) axis, increasing cortisol levels and oxidative damage . 
+7. Sleep Quality and Duration : Sleep is a critical yet often overlooked determinant of telomere 
+dynamics. Poor sleep quality, inadequate duration (<6 hours per night), and disorders such 
+as insomnia and sleep apnea contribute to systemic inflammation, impaired glucose 
+metabolism, and el evated cortisol levels —all of which promote telomere shortening  [20,21] . 
+Studies show that individuals with poor sleep hygiene tend to have significantly shorter 
+telomeres than those with consistent, restful sleep. Furthermore, sleep disruptions can 
+exacerbate the negative effects of other risk factors such as obesity and stress, creating a 
+compounding effect on cellular aging.  
+I.III India’s Lifestyle Divide and Its Molecular Consequences   
+India, home to over 1.4 billion people, is not a monolith in terms of health, habits, or environment. Its 
+states and union territories exhibit wide disparities in lifestyle patterns, healthcare infrastructure, 
+pollution levels, education, and economic development. From the high -altitude Himalayan regions 
+with lower pollution but harsher climates, to metropolitan hubs plagued with stress and poor air 
+quality, the conditions under which Indians live —and age —are vastly heterogeneous.  
+Despite this diversity, health assessments across states have mostly been limited to life expectancy, 
+disease burden, and fertility rates, which are important but incomplete indicators of population health. 
+Biological aging, as represented by telomere attr ition, offers a novel and deeper insight into how 
+lifestyle, policy, and culture interplay to shape health trajectories at the molecular level.  
+This research paper introduces and develops the concept of a “Telomeres Divide” —a molecular 
+boundary emerging from differing lifestyles and health behavio urs across Indian states. By analy sing 
+lifestyle -related indicators and environmental exposures specific to each state, we aim to estimate the 
+relative rate of telomere attrition, and rank the states accordingly.  
+In doing so, this study hopes to contribute to a data -driven aging policy framework for India —where 
+aging is not just about longer lives, but about longer, healthier lives.  
+ 
+
+--- Page 4 ---
+ 
+ II. Algorithm Design and Implementation  
+This study adopts a multi -parametric scoring and ranking methodology to estimate and compare the 
+rate of telomere attrition across Indian states based on lifestyle and environmental determinants 
+known to influence telomere biology. The analysis is divided into seven  primary  phases:  
+1. Identification of Telomere -Influencing Factors  
+Based on a comprehensive review of existing biomedical literature, we identified eight major factors 
+that significantly contribute to telomere shortening  (Refer to Fig.2) : 
+• Air Pollution Exposure (PM 2.5, AQI)  
+• Tobacco Use  
+• Obesity and Metabolic Health  
+• Diet and Nutrition Quality  
+• Physical Activity Levels  
+• Chronic Stress Indicators  
+• Sleep Quality and Duration  
+• Public Health and Socioeconomic  Indicators  
+The analysis considers three key factors  from the above mentioned —air pollution exposure, tobacco 
+use, and obesity —as they are major contributors to telomere shortening  and due to the availability of 
+reliable state -wise data, while sufficient data for other relevant factors was not consistently available  
+across all states.  
+Fig.2 Lifestyle factors affecting telomere attrition  
+ 
+ 
+2. Data Colle ction  
+ 
+Data for each factor  were sourced from authentic and publicly available national databases  which are:  
+• National Family Health Survey -5 
+• India Fact Sheet  
+ 
+The data used for the analysis is:  
+
+
+--- Page 5 ---
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Annual average 2021 PM 2.5 concentration (µg/m³)  
+  STATES/ UNION TERRITORIES   PM 2.5 
+CONCENTRATION  
+(µg/m³)  
+ANDAMAN & NICOBAR  19 
+ANDHRA PRADESH  31.6  
+ARUNACHAL PRADESH  16.7  
+ASSAM  34.9  
+BIHAR  86.2  
+CHANDIGARH  48.6  
+CHHATTISGARH  63.3  
+DELHI  126.5  
+GOA  29.1  
+GUJARAT  37.1  
+HARYANA  90.1  
+HIMACHAL PRADESH  30.6  
+JAMMU & KASHMIR  35.6  
+JHARKHAND  64 
+KARNATAKA  29 
+KERALA  18.5  
+LAKSHADWEEP  21 
+MADHYA PRADESH  52.3  
+MAHARASHTRA  41.9  
+MANIPUR  33.8  
+MEGHALAYA  35.4  
+MIZORAM  39.4  
+NAGALAND  28.7  
+ODISHA  47.8  
+PUDUCHERRY  24.2  
+PUNJAB  70.3  
+RAJASTHAN  54.7  
+SIKKIM  39.8  
+TAMIL NADU  28.2  
+TELANGANA  38.2  
+TRIPURA  67.3  
+UTTAR PRADESH  94.4  
+UTTARAKHAND  43.2  
+WEST BENGAL  64.8  
+
+--- Page 6 ---
+ 
+ NFHS -5 State -wise Tobacco Use Data  (2019 -2021)  
+
+
+--- Page 7 ---
+ 
+ NFHS -5 State -wise Obesity data  (2019 -2021 ) 
+
+
+--- Page 8 ---
+ 
+ STATES/ UNION 
+TERRITORIES  PM 2.5 
+CONCENTRATION 
+(µg/m³)  OBE SITY  
+(%)  TOBACCO 
+USERS 
+ (%) 
+ANDAMAN & NICOBAR  19 31.8  31.3  
+ANDHRA PRADESH  31.6  33.2  3.8 
+ARUNACHAL PRADESH  16.7  18.8  18.8  
+ASSAM  34.9  13.2  22.1  
+BIHAR  86.2  11.7  5 
+CHANDIGARH  48.6  41.4  0.6 
+CHHATTISGARH  63.3  11.9  17.3  
+DELHI  126.5  33.5  2.2 
+GOA  29.1  33.5  2.6 
+GUJARAT  37.1  23.8  8.7 
+HARYANA  90.1  21 2.5 
+HIMACHAL PRADESH  30.6  28.7  1.7 
+JAMMU & KASHMIR  35.6  29.1  3.6 
+JHARKHAND  64 10.3  8.4 
+KARNATAKA  29 23.3  8.5 
+KERALA  18.5  32.4  2.2 
+LAKSHADWEEP  21 40.6  17.5  
+MADHYA PRADESH  52.3  13.6  10.2  
+MAHARASHTRA  41.9  23.4  10.9  
+MANIPUR  33.8  26 43.1  
+MEGHALAYA  35.4  12.2  28.2  
+MIZORAM  39.4  21.1  61.6  
+NAGALAND  28.7  16.2  13.7  
+ODISHA  47.8  16.5  26 
+PUDUCHERRY  24.2  36.7  2.6 
+PUNJAB  70.3  31.3  0.4 
+RAJASTHAN  54.7  14.1  6.9 
+SIKKIM  39.8  26.7  11.7  
+TAMIL NADU  28.2  30.9  4.9 
+TELANGANA  38.2  28.7  5.6 
+TRIPURA  67.3  16 50.4  
+UTTAR PRADESH  94.4  16.5  8.4 
+UTTARAKHAND  43.2  20.5  4.6 
+WEST BENGAL  64.8  19.9  10.8  
+ 
+Combined dataset for Women  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- Page 9 ---
+ 
+ STATES/ UNION 
+TERRITORIES  PM 2.5 
+CONCENTRATION 
+(µg/m³)  OBESITY  
+(%) TOBACCO 
+USERS  
+(%) 
+ANDAMAN & NICOBAR  19 38.2  58.7  
+ANDHRA PRADESH  31.6  33.5  22.6  
+ARUNACHAL PRADESH  16.7  20.6  50.3  
+ASSAM  34.9  12.9  51.8  
+BIHAR  86.2  12.6  48.8  
+CHANDIGARH  48.6  32 12.1  
+CHHATTISGARH  63.3  10.2  43.1  
+DELHI  126.5  24.6  26.3  
+GOA  29.1  32.7  18.2  
+GUJARAT  37.1  19.7  41.1  
+HARYANA  90.1  20 29.1  
+HIMACHAL PRADESH  30.6  22 32.3  
+JAMMU & KASHMIR  35.6  20.5  38.3  
+JHARKHAND  64 11.1  47.4  
+KARNATAKA  29 22.1  27.1  
+KERALA  18.5  28.5  16.9  
+LAKSHADWEEP  21 24.1  28.5  
+MADHYA PRADESH  52.3  10.9  46.5  
+MAHARASHTRA  41.9  23.8  33.8  
+MANIPUR  33.8  19.8  58.1  
+MEGHALAYA  35.4  10 57.7  
+MIZORAM  39.4  20.9  72.9  
+NAGALAND  28.7  13.9  48.4  
+ODISHA  47.8  17.3  51.6  
+PUDUCHERRY  24.2  37.1  14.8  
+PUNJAB  70.3  27.8  12.9  
+RAJASTHAN  54.7  13.2  42 
+SIKKIM  39.8  34.8  41.3  
+TAMIL NADU  28.2  28.2  20.1  
+TELANGANA  38.2  24.2  22.3  
+TRIPURA  67.3  15.9  56.9  
+UTTAR PRADESH  94.4  12.5  44.1  
+UTTARAKHAND  43.2  17.7  33.7  
+WEST BENGAL  64.8  14.2  48.1  
+ 
+Combined dataset for Men  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- Page 10 ---
+ 
+ 3. Normalization  
+ 
+To ensure comparability, raw data were normalized on a 0 –1 scale using Min -Max 
+normalization,  where:  
+ 
+Normalized Score = 𝑥max  − 𝑥
+𝑥max  −  𝑥min 
+ 
+𝑥max  = Maximum value of the factor across all the states          𝑥min = Maximum value of the factor across all the states  
+STATEWISE DATA OF  FACTORS AFFECTING TELOMERES  NORMALIZED SCORE  
+STATES/ UNION TERRITORIES  PM2.5 
+CONCENTRATION 
+(µg/m³)  OBESITY  TOBACCO 
+USE PM2.5 
+CONCENTRATION 
+(µg/m³)  OBESITY  TOBACCO 
+USE 
+ANDAMAN & NICOBAR  19 31.8  31.3  0.979  0.309  0.495  
+ANDHRA PRADESH  31.6  33.2  3.8 0.864  0.264  0.944  
+ARUNACHAL PRADESH  16.7  18.8  18.8  1 0.727  0.699  
+ASSAM  34.9  13.2  22.1  0.834  0.907  0.645  
+BIHAR  86.2  11.7  5 0.367  0.955  0.925  
+CHANDIGARH  48.6  41.4  0.6 0.709  0 0.997  
+CHHATTISGARH  63.3  11.9  17.3  0.576  0.948  0.724  
+DELHI  126.5  33.5  2.2 0 0.254  0.971  
+GOA  29.1  33.5  2.6 0.877  0.254  0.964  
+GUJARAT  37.1  23.8  8.7 0.814  0.566  0.864  
+HARYANA  90.1  21 2.5 0.331  0.656  0.966  
+HIMACHAL PRADESH  30.6  28.7  1.7 0.873  0.408  0.979  
+JAMMU & KASHMIR  35.6  29.1  3.6 0.828  0.395  0.948  
+JHARKHAND  64 10.3  8.4 0.569  1 0.869  
+KARNATAKA  29 23.3  8.5 0.888  0.581  0.868  
+KERALA  18.5  32.4  2.2 0.984  0.289  0.971  
+LAKSHADWEEP  21 40.6  17.5  0.96  0.026  0.721  
+MADHYA PRADESH  52.3  13.6  10.2  0.676  0.894  0.84  
+MAHARASHTRA  41.9  23.4  10.9  0.77  0.579  0.829  
+MANIPUR  33.8  26 43.1  0.844  0.495  0.302  
+MEGHALAYA  35.4  12.2  28.2  0.83  0.939  0.546  
+MIZORAM  39.4  21.1  61.6  0.793  0.653  0 
+NAGALAND  28.7  16.2  13.7  0.891  0.81  0.783  
+ODISHA  47.8  16.5  26 0.717  0.801  0.582  
+PUDUCHERRY  24.2  36.7  2.6 0.931  0.151  0.964  
+PUNJAB  70.3  31.3  0.4 0.512  0.325  1 
+RAJASTHAN  54.7  14.1  6.9 0.654  0.878  0.894  
+SIKKIM  39.8  26.7  11.7  0.79  0.473  0.815  
+TAMIL NADU  28.2  30.9  4.9 0.895  0.338  0.926  
+TELANGANA  38.2  28.7  5.6 0.804  0.408  0.915  
+TRIPURA  67.3  16 50.4  0.539  0.817  0.183  
+UTTAR PRADESH  94.4  16.5  8.4 0.292  0.801  0.87  
+UTTARAKHAND  43.2  20.5  4.6 0.759  0.672  0.931  
+WEST BENGAL  64.8  19.9  10.8  0.562  0.691  0.83  
+State -wise Normalized scores of each factor for Women  
+ 
+
+--- Page 11 ---
+ 
+  
+ 
+STATEWISE RANKING OF FACTORS AFFECTING TELOMERES  NORMALIZED SCORE  
+STATES/ UNION TERRITORIES  PM 2.5 
+CONCENTRATION  
+(µg/m³)  OBESITY  TOBACCO USE  PM 2.5 
+CONCENTRATION  
+(µg/m³)  OBESITY  TOBACCO 
+USE 
+ANDAMAN & NICOBAR  19 38.2  58.7  0.979  0.078  0.233  
+ANDHRA PRADESH  31.6  33.5  22.6  0.864  0.232  0.827  
+ARUNACHAL PRADESH  16.7  20.6  50.3  1 0.653  0.371  
+ASSAM  34.9  12.9  51.8  0.834  0.905  0.347  
+BIHAR  86.2  12.6  48.8  0.367  0.915  0.396  
+CHANDIGARH  48.6  32 12.1  0.709  0.281  1 
+CHHATTISGARH  63.3  10.2  43.1  0.576  0.993  0.49  
+DELHI  126.5  24.6  26.3  0 0.522  0.766  
+GOA  29.1  32.7  18.2  0.877  0.258  0.899  
+GUJARAT  37.1  19.7  41.1  0.814  0.683  0.523  
+HARYANA  90.1  20 29.1  0.331  0.673  0.72  
+HIMACHAL PRADESH  30.6  22 32.3  0.873  0.607  0.667  
+JAMMU & KASHMIR  35.6  20.5  38.3  0.828  0.656  0.569  
+JHARKHAND  64 11.1  47.4  0.569  0.964  0.419  
+KARNATAKA  29 22.1  27.1  0.888  0.604  0.753  
+KERALA  18.5  28.5  16.9  0.984  0.395  0.921  
+LAKSHADWEEP  21 24.1  28.5  0.96  0.539  0.73  
+MADHYA PRADESH  52.3  10.9  46.5  0.676  0.97  0.434  
+MAHARASHTRA  41.9  23.8  33.8  0.77  0.549  0.643  
+MANIPUR  33.8  19.8  58.1  0.844  0.679  0.243  
+MEGHALAYA  35.4  10 57.7  0.83  1 0.25  
+MIZORAM  39.4  20.9  72.9  0.793  0.643  0 
+NAGALAND  28.7  13.9  48.4  0.891  0.872  0.402  
+ODISHA  47.8  17.3  51.6  0.717  0.761  0.35  
+PUDUCHERRY  24.2  37.1  14.8  0.931  0.114  0.955  
+PUNJAB  70.3  27.8  12.9  0.512  0.418  0.986  
+RAJASTHAN  54.7  13.2  42 0.654  0.895  0.508  
+SIKKIM  39.8  34.8  41.3  0.79  0.189  0.519  
+TAMIL NADU  28.2  28.2  20.1  0.895  0.405  0.868  
+TELANGANA  38.2  24.2  22.3  0.804  0.535  0.832  
+TRIPURA  67.3  15.9  56.9  0.539  0.807  0.263  
+UTTAR PRADESH  94.4  12.5  44.1  0.292  0.918  0.473  
+UTTARAKHAND  43.2  17.7  33.7  0.759  0.748  0.644  
+WEST BENGAL  64.8  14.2  48.1  0.562  0.862  0.407  
+ 
+State -wise Normalized scores of each factor for Men  
+ 
+ 
+ 
+ 
+ 
+
+--- Page 12 ---
+ 
+ 4. Factor Weight Assignment  
+ 
+Each factor was assigned a weight based on its relative impact on telomere attrition, as validated by 
+peer-reviewed  meta -analyses . 
+ 
+1. Air Pollution (PM 2.5) – 45% Weight  
+ 
+Airborne fine particulate matter (PM 2.5) is one of the most potent environmental contributors to 
+cellular aging. Studies have shown that chronic exposure to PM 2.5 induces oxidative stress, damages 
+DNA, and leads to accelerated telomere erosion.  
+A longitudinal study published in Environmental Health Perspectives  (Hou et al., 2012) demonstrated 
+a negative correlation between PM 2.5 levels and leukocyte telomere length, particularly in urban 
+populations  [10]. The mechanism primarily involves the generation of reactive oxygen species (ROS), 
+which damage telomeric DNA and inhibit telomerase, the enzyme responsible for telomere 
+maintenance. The World Health Organization has also acknowledged air pollution as a m ajor 
+modifiable risk factor for non -communi cable diseases that are closely tied to telomere biology.  
+ 
+2. Tobacco Use – 35% Weight   
+ 
+Tobacco smoke contains over 7,000 chemicals, many of which are pro -oxidants and carcinogens. Its 
+impact on telomeres has been validated across multiple epidemiological and clinical studies. Smokers 
+have been shown to have significantly shorter telomeres co mpared to non -smokers, independent of 
+age, BMI, and socioeconomic status.  
+A major meta -analysis (Valdes et al., The Lancet , 2005) confirmed that tobacco use is associated with 
+a reduction in telomere length equivalent to several years of biological aging  [12]. This is attributed to 
+the direct induction of oxidative stress and chronic systemic inflammation, both of which contribute to 
+the shortening of telomeric DNA with each cell division.  
+ 
+3. Obesity – 20% Weight  
+ 
+Obesity, particularly visceral or central obesity, is a systemic condition linked to metabolic 
+dysregulation, low -grade inflammation, and insulin resistance — all of which accelerate cellular 
+aging.  
+Research published in journals like Obesity Reviews  and The Journal of Clinical Endocrinology & 
+Metabolism  has shown that individuals with higher BMI and waist circumference have significantly 
+shorter telomeres, suggesting a direct relationship between adiposity and biological age. The 
+biological underpinnings involve chronic activation of inflammatory pathway s (e.g., NF -κB), 
+increased oxidative stress, and dysregulated telomerase activity.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5. Calculation of T elomere Attrition Inde x (TAI)  for each State  
+The formula used for its calculation is:  
+ 
+  TAI (S) = ∑ 𝑤𝑖𝑠𝑖𝑛
+𝑖=1  
+  
+ 𝑤𝑖: Weight assigned to ith factor  
+𝑠𝑖 : Normalised score of ith factor for the state S  
+  n : Number of factors  
+ 
+       S. No  FACTORS  WEIGHTS  
+1.  Air Pollution  0.45 
+2.  Tobacco Use  0.35 
+3.  Obesity  0.20 
+Telomere Attrition Rate (S)  α 1
+𝑇𝐴𝐼  (𝑆) 
+ 
+
+--- Page 13 ---
+ 
+  
+ 
+ 
+ 
+ STATEWISE RANKING OF FACTORS AFFECTING TELOMERES  NORMALIZED SCORE  TAI 
+STATES/ UNION 
+TERRITORIES  PM2.5 
+CONCENTRATION 
+(µg/m³)  OBESITY  TOBACCO 
+USE PM2.5 
+CONCENTRATION 
+(µg/m³)  OBESITY  TOBACCO 
+USE   
+ANDAMAN & NICOBAR  19 31.8  31.3  0.979  0.309  0.495  0.676  
+ANDHRA PRADESH  31.6  33.2  3.8 0.864  0.264  0.944  0.772  
+ARUNACHAL PRADESH  16.7  18.8  18.8  1 0.727  0.699  0.84  
+ASSAM  34.9  13.2  22.1  0.834  0.907  0.645  0.782  
+BIHAR  86.2  11.7  5 0.367  0.955  0.925  0.68  
+CHANDIGARH  48.6  41.4  0.6 0.709  0 0.997  0.668  
+CHHATTISGARH  63.3  11.9  17.3  0.576  0.948  0.724  0.702  
+DELHI  126.5  33.5  2.2 0 0.254  0.971  0.39  
+GOA  29.1  33.5  2.6 0.877  0.254  0.964  0.783  
+GUJARAT  37.1  23.8  8.7 0.814  0.566  0.864  0.782  
+HARYANA  90.1  21 2.5 0.331  0.656  0.966  0.618  
+HIMACHAL PRADESH  30.6  28.7  1.7 0.873  0.408  0.979  0.817  
+JAMMU & KASHMIR  35.6  29.1  3.6 0.828  0.395  0.948  0.783  
+JHARKHAND  64 10.3  8.4 0.569  1 0.869  0.76  
+KARNATAKA  29 23.3  8.5 0.888  0.581  0.868  0.82  
+KERALA  18.5  32.4  2.2 0.984  0.289  0.971  0.84  
+LAKSHADWEEP  21 40.6  17.5  0.96  0.026  0.721  0.689  
+MADHYA PRADESH  52.3  13.6  10.2  0.676  0.894  0.84  0.777  
+MAHARASHTRA  41.9  23.4  10.9  0.77 0 0.579  0.829  0.752  
+MANIPUR  33.8  26 43.1  0.844  0.495  0.302  0.584  
+MEGHALAYA  35.4  12.2  28.2  0.83  0.939  0.546  0.752  
+MIZORAM  39.4  21.1  61.6  0.793  0.653  0 0.487  
+NAGALAND  28.7  16.2  13.7  0.891  0.81 0 0.783  0.837  
+ODISHA  47.8  16.5  26 0.717  0.801  0.582  0.686  
+PUDUCHERRY  24.2  36.7  2.6 0.931  0.151  0.964  0.787  
+PUNJAB  70.3  31.3  0.4 0.512  0.325  1 0.645  
+RAJASTHAN  54.7  14.1  6.9 0.654  0.878  0.894  0.783  
+SIKKIM  39.8  26.7  11.7  0.79 0 0.473  0.815  0.735  
+TAMIL NADU  28.2  30.9  4.9 0.895  0.338  0.926  0.794  
+TELANGANA  38.2  28.7  5.6 0.804  0.408  0.915  0.764  
+TRIPURA  67.3  16 50.4  0.539  0.817  0.183  0.47  
+UTTAR PRADESH  94.4  16.5  8.4 0.292  0.801  0.87  0.596  
+UTTARAKHAND  43.2  20.5  4.6 0.759  0.672  0.931  0.802  
+WEST BENGAL  64.8  19.9  10.8  0.562  0.691  0.83  0.682  
+Telomere Attrition Index of each State by analysing the data of Women  
+ 
+C 
+
+--- Page 14 ---
+ 
+   STATEWISE RANKING OF FACTORS AFFECTING TELOMERES  NORMALIZED SCORE  TAI 
+STATES/ UNION TERRITORIES  PM2.5 
+CONCENTRATION 
+(µg/m³)  OBESITY  TOBACCO 
+USE PM2.5 
+CONCENTRATION 
+(µg/m³)  OBESITY  TOBACCO 
+USE   
+ANDAMAN & NICOBAR  19 38.2  58.7  0.979  0.078  0.233  0.537  
+ANDHRA PRADESH  31.6  33.5  22.6  0.864  0.232  0.827  0.724  
+ARUNACHAL PRADESH  16.7  20.6  50.3  1 0.653  0.371  0.71  
+ASSAM  34.9  12.9  51.8  0.834  0.905  0.347  0.677  
+BIHAR  86.2  12.6  48.8  0.367  0.915  0.396  0.486  
+CHANDIGARH  48.6  32 12.1  0.709  0.281  1 0.725  
+CHHATTISGARH  63.3  10.2  43.1  0.576  0.993  0.49  0.629  
+DELHI  126.5  24.6  26.3  0 0.522  0.766  0.372  
+GOA  29.1  32.7  18.2  0.877  0.258  0.899  0.76  
+GUJARAT  37.1  19.7  41.1  0.814  0.683  0.523  0.685  
+HARYANA  90.1  20 29.1  0.331  0.673  0.72  0.535  
+HIMACHAL PRADESH  30.6  22 32.3  0.873  0.607  0.667  0.747  
+JAMMU & KASHMIR  35.6  20.5  38.3  0.828  0.656  0.569  0.702  
+JHARKHAND  64 11.1  47.4  0.569  0.964  0.419  0.595  
+KARNATAKA  29 22.1  27.1  0.888  0.604  0.753  0.783  
+KERALA  18.5  28.5  16.9  0.984  0.395  0.921  0.844  
+LAKSHADWEEP  21 24.1  28.5  0.96  0.539  0.73  0.795  
+MADHYA PRADESH  52.3  10.9  46.5  0.676  0.97  0.434  0.65  
+MAHARASHTRA  41.9  23.8  33.8  0.77  0.549  0.643  0.681  
+MANIPUR  33.8  19.8  58.1  0.844  0.679  0.243  0.6 
+MEGHALAYA  35.4  10 57.7  0.83  1 0.25  0.661  
+MIZORAM  39.4  20.9  72.9  0.793  0.643  0 0.485  
+NAGALAND  28.7  13.9  48.4  0.891  0.872  0.402  0.716  
+ODISHA  47.8  17.3  51.6  0.717  0.761  0.35  0.597  
+PUDUCHERRY  24.2  37.1  14.8  0.931  0.114  0.955  0.776  
+PUNJAB  70.3  27.8  12.9  0.512  0.418  0.986  0.659  
+RAJASTHAN  54.7  13.2  42 0.654  0.895  0.508  0.651  
+SIKKIM  39.8  34.8  41.3  0.79  0.189  0.519  0.574  
+TAMIL NADU  28.2  28.2  20.1  0.895  0.405  0.868  0.787  
+TELANGANA  38.2  24.2  22.3  0.804  0.535  0.832  0.76  
+TRIPURA  67.3  15.9  56.9  0.539  0.807  0.263  0.496  
+UTTAR PRADESH  94.4  12.5  44.1  0.292  0.918  0.473  0.48  
+UTTARAKHAND  43.2  17.7  33.7  0.759  0.748  0.644  0.716  
+WEST BENGAL  64.8  14.2  48.1  0.562  0.862  0.407  0.567  
+Telomere Attrition Index of each State by analysing the data of Men  
+ 
+
+--- Page 15 ---
+ 
+ 6. State -wise Ranking  
+States are arranged in the increasing order of their Telomere Attrition Index(TAI) i.e. in the 
+decreasing order of the Telomere Attrition Rate . 
+ 
+ 
+ 
+    
+ 
+ STATES/ UNION TERRITORIES  TAI 
+DELHI  0.39 0 
+TRIPURA  0.47 0 
+MIZORAM  0.487  
+MANIPUR  0.584  
+UTTAR PRADESH  0.596  
+HARYANA  0.618  
+PUNJAB  0.645  
+CHANDIGARH  0.668  
+ANDAMAN & NICOBAR  0.676  
+BIHAR  0.68 0 
+WEST BENGAL  0.682  
+ODISHA  0.686  
+LAKSHADWEEP  0.689  
+CHHATTISGARH  0.702  
+SIKKIM  0.735  
+MAHARASHTRA  0.752  
+MEGHALAYA  0.752  
+JHARKHAND  0.76 0 
+TELANGANA  0.764  
+ANDHRA PRADESH  0.772  
+MADHYA PRADESH  0.777  
+ASSAM  0.782  
+GUJARAT  0.782  
+GOA  0.783  
+JAMMU & KASHMIR  0.783  
+RAJASTHAN  0.783  
+PUDUCHERRY  0.787  
+TAMIL NADU  0.794  
+UTTARAKHAND  0.802  
+HIMACHAL PRADESH  0.817  
+KARNATAKA  0.82 0 
+NAGALAND  0.837  
+ARUNACHAL PRADESH  0.84 0 
+KERALA  0.84 0 STATES/ UNION TERRITORIES  TAI 
+DELHI  0.372  
+UTTAR PRADESH  0.48 0 
+MIZORAM  0.485  
+BIHAR  0.486  
+TRIPURA  0.496  
+HARYANA  0.535  
+ANDAMAN & NICOBAR  0.537  
+WEST BENGAL  0.567  
+SIKKIM  0.574  
+JHARKHAND  0.595  
+ODISHA  0.597  
+MANIPUR  0.600 
+CHHATTISGARH  0.629  
+MADHYA PRADESH  0.65 0 
+RAJASTHAN  0.651  
+PUNJAB  0.659  
+MEGHALAYA  0.661  
+ASSAM  0.677  
+MAHARASHTRA  0.681  
+GUJARAT  0.685  
+JAMMU & KASHMIR  0.702  
+ARUNACHAL PRADESH  0.71 0 
+NAGALAND  0.716  
+UTTARAKHAND  0.716  
+ANDHRA PRADESH  0.724  
+CHANDIGARH  0.725  
+HIMACHAL PRADESH  0.747  
+GOA  0.76 0 
+TELANGANA  0.76 0 
+PUDUCHERRY  0.776  
+KARNATAKA  0.783  
+TAMIL NADU  0.787  
+LAKSHADWEEP  0.795  
+KERALA  0.844  
+State -wise Ranking of Telomere Attrition Rate as 
+per the analysis of Women data  State -wise Ranking of Telomere Attrition Rate as 
+per the analysis of Men data  
+
+--- Page 16 ---
+ 
+ 7. Final Rank-list as per  Average  Telomere Attrition Index  
+ 
+ 
+ 
+STATES/ UNION TERRITORIES  TAI 
+(WOMEN)  TAI 
+(MEN)  AVERAGE 
+TAI 
+ANDAMAN & NICOBAR  0.676  0.537  0.606  
+ANDHRA PRADESH  0.772  0.724  0.748  
+ARUNACHAL PRADESH  0.84  0.71  0.775  
+ASSAM  0.782  0.677  0.729  
+BIHAR  0.68  0.486  0.583  
+CHANDIGARH  0.668  0.725  0.696  
+CHHATTISGARH  0.702  0.629  0.665  
+DELHI  0.39  0.372  0.381  
+GOA  0.783  0.76  0.771  
+GUJARAT  0.782  0.685  0.733  
+HARYANA  0.618  0.535  0.576  
+HIMACHAL PRADESH  0.817  0.747  0.782  
+JAMMU & KASHMIR  0.783  0.702  0.742  
+JHARKHAND  0.76  0.595  0.677  
+KARNATAKA  0.82  0.783  0.801  
+KERALA  0.84  0.844  0.842  
+LAKSHADWEEP  0.689  0.795  0.742  
+MADHYA PRADESH  0.777  0.65  0.713  
+MAHARASHTRA  0.752  0.681  0.716  
+MANIPUR  0.584  0.6 0.592  
+MEGHALAYA  0.752  0.661  0.706  
+MIZORAM  0.487  0.485  0.486  
+NAGALAND  0.837  0.716  0.776  
+ODISHA  0.686  0.597  0.641  
+PUDUCHERRY  0.787  0.776  0.781  
+PUNJAB  0.645  0.659  0.652  
+RAJASTHAN  0.783  0.651  0.717  
+SIKKIM  0.735  0.574  0.654  
+TAMIL NADU  0.794  0.787  0.79  
+TELANGANA  0.764  0.76  0.762  
+TRIPURA  0.47  0.496  0.483  
+UTTAR PRADESH  0.596  0.48  0.538  
+UTTARAKHAND  0.802  0.716  0.759  
+WEST BENGAL  0.682  0.567  0.624  
+ 
+State -wise Average TAI  
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- Page 17 ---
+ 
+ STATES/ UNION TERRITORIES  AVERAGE 
+TAI 
+DELHI  0.381  
+TRIPURA  0.483  
+MIZORAM  0.486  
+UTTAR PRADESH  0.538  
+HARYANA  0.576  
+BIHAR  0.583  
+MANIPUR  0.592  
+ANDAMAN & NICOBAR  0.606  
+WEST BENGAL  0.624  
+ODISHA  0.641  
+PUNJAB  0.652  
+SIKKIM  0.654  
+CHHATTISGARH  0.665  
+JHARKHAND  0.677  
+CHANDIGARH  0.696  
+MEGHALAYA  0.706  
+MADHYA PRADESH  0.713  
+MAHARASHTRA  0.716  
+RAJASTHAN  0.717  
+ASSAM  0.729  
+GUJARAT  0.733  
+JAMMU & KASHMIR  0.742  
+LAKSHADWEEP  0.742  
+ANDHRA PRADESH  0.748  
+UTTARAKHAND  0.759  
+TELANGANA  0.762  
+GOA  0.771  
+ARUNACHAL PRADESH  0.775  
+NAGALAND  0.776  
+PUDUCHERRY  0.781  
+HIMACHAL PRADESH  0.782  
+TAMIL NADU  0.79  
+KARNATAKA  0.801  
+KERALA  0.842  
+ 
+Final State -wise Rank -list as per Telomere Attrition Index  
+ 
+ 
+
+--- Page 18 ---
+ 
+  
+
+
+--- Page 19 ---
+ 
+ III. Empirical Validation of the Rank -List 
+ 
+The rank-list generated through this index closely aligns with empirical trends observed across Indian 
+regions , which validates the accuracy of the rank -list.  
+ 
+1. High -Risk States (Low TAI i.e. High Telomere Attrition Risk)  
+ 
+• Delhi ranks at the top with the lowest  TAI, indicating highest telomere attrition — this is 
+well-supported by extensive air pollution data. Delhi consistently records PM 2.5 levels 
+exceeding WHO limits by over 10 times, making it biologically plausible for residents to 
+exhibit accelerated cellular aging  [22,23] . 
+• Tripura, Mizoram, Uttar Pradesh, and Haryana also appear among the highest -risk states. 
+These regions are characterized by:  
+o Extremely high tobacco usage (NFHS -5 and GATS report Tripura and Mizoram 
+among top tobacco -consuming states)  [24,25] . 
+o Poor air quality in northern plains like UP and Haryana  [23]. 
+o Increasing obesity rates in both rural and urban sectors, especially in north -central 
+India [24]. 
+ 
+2.  Middle -Risk States (Moderate TAI)  
+ 
+• States like West Bengal, Odisha, Punjab, Chhattisgarh, and Madhya Pradesh fall into the 
+middle -risk tier. This aligns with:  
+o Moderate pollution exposure (urban pockets with industrial activity but large rural 
+buffers)  [23]. 
+o Rising lifestyle -related disorders like obesity and hypertension  [24].  
+o Variable tobacco use, especially smokeless forms in eastern India  [25]. 
+ 
+3.  Low -Risk States (High TAI → Low Telomere Attrition Risk)  
+ 
+• Kerala, Karnataka, Tamil Nadu, and Himachal Pradesh rank highest in TAI, indicating the 
+least biological risk for telomere shortening.  
+o Kerala: Known for exceptional public health indicators, low tobacco usage, high 
+literacy, and robust primary care access  [24]. 
+o Himachal Pradesh and Tamil Nadu: Cleaner air, lower smoking prevalence, and 
+active public health outreach  [23,25 ]. 
+o Karnataka: Balanced urbanization with relatively low air pollution levels outside 
+metro areas  [23]. 
+ 
+4. Concordance with Epidemiological Trends  
+ 
+Cross -validation with known burden of non -communicable diseases (NCDs), as reported in 
+India’s National Health Profile , also provides robust epidemiological validation  [26,28] . 
+ 
+o High -risk TAI states report higher instances of cardiovascular disease, diabetes, and 
+respiratory illness — all associated with telomere attrition  [27,28] . 
+o States with high TAI often report better NCD outcomes, longer life expectancy, and 
+better access to preventive care  [26]. 
+ 
+Note: By incorporating additional lifestyle factors such as diet quality, stress levels, sleep duration 
+and quality, and physical activity patterns, the Telomere Attrition Index (TAI) can be recalibrated to 
+enable a more comprehensive and nuanced assessment of t elomere attrition risk.  However, due to the 
+unavailability of consistent and state -wise data for these variables across India, they could not be 
+included in the present analysis . 
+
+--- Page 20 ---
+ 
+ IV. Conclusion  
+ 
+This study presents a novel, evidence -based framework to quantify telomere attrition risk across 
+Indian states through the construction of a Telomere Attrition Index (TAI). By focusing on three 
+primary determinants —air pollution, tobacco use, and obesity —the analysis reveals significant 
+regional disparities in biological aging, effectively mapping a “Telomere Divide” within the country.  
+The findings underscore how environmental and lifestyle factors, though modifiable, are deeply 
+rooted in socio -economic and policy contexts, disproportionately accelerating cellular aging in certain 
+populations. High -risk states such as Delhi, Tripura, and  Uttar Pradesh face a convergence of harmful 
+exposures that elevate their biological vulnerability, while others benefit from more protective 
+conditions.  It also establishes a replicable model for assessing aging risks in other low - and middle -
+income setti ngs. 
+ 
+V. References  
+ 
+1. López -Otín, C., Blasco, M. A., Partridge, L., Serrano, M., & Kroemer, G. (2013). The 
+hallmarks of aging. Cell, 153 (6), 1194 –1217. https://doi.org/10.1016/j.cell.2013.05.039  
+ 
+2. Blackburn, E. H., Greider, C. W., & Szostak, J. W. (2006). Telomeres and telomerase: The 
+path from maize, Tetrahymena  and yeast to human cancer and aging. Nature Medicine, 
+12(10), 1133 –1138. https://doi.org/10.1038/nm1006 -1133  
+ 
+3. Shay, J. W., & Wright, W. E. (2000). Hayflick, his limit, and cellular ageing. Nature Reviews 
+Molecular Cell Biology, 1 (1), 72 –76. https://doi.org/10.1038/35036093  
+ 
+4. Harley, C. B., Futcher, A. B., & Greider, C. W. (1990). Telomeres shorten during ageing of 
+human fibroblasts. Nature, 345 (6274), 458 –460. https://doi.org/10.1038/345458a0  
+ 
+5. Jeyapalan, J. C., & Sedivy, J. M. (2008). Cellular senescence and organismal ageing. 
+Mechanisms of Ageing and Development, 129 (7–8), 467 –474. 
+https://doi.org/10.1016/j.mad.2008.04.001  
+ 
+6. Campisi, J., & d'Adda di Fagagna, F. (2007). Cellular senescence: When bad things happen to 
+good cells. Nature Reviews Molecular Cell Biology, 8 (9), 729 –740. 
+https://doi.org/10.1038/nrm2233  
+ 
+7. von Zglinicki, T. (2002). Oxidative stress shortens telomeres. Trends in Biochemical 
+Sciences, 27 (7), 339 –344. https://doi.org/10.1016/S0968 -0004(02)02110 -2 
+ 
+8. Muezzinler, A., Zaineddin, A. K., & Brenner, H. (2014). Body mass index and leukocyte 
+telomere length in adults: A systematic review and meta -analysis. Obesity Reviews, 15 (3), 
+192–201. https://doi.org/10.1111/obr.12126  
+ 
+9. Epel, E. S., Blackburn, E. H., Lin, J., Dhabhar, F. S., Adler, N. E., Morrow, J. D., & Cawthon, 
+R. M. (2004). Accelerated telomere shortening in response to life stress. Proceedings of the 
+National Academy of Sciences, 101 (49), 17312 –17315. 
+https://doi.org/10.1073/pnas.0407162101  
+ 
+10. Hou, L., Zhang, X., & Wang, D. (2012). Air pollution exposure and telomere length in highly 
+exposed subjects in Beijing, China: A repeated -measure study. Environment International, 
+48, 71–77. https://doi.org/10.1016/j.envint.2012.06.020  
+ 
+ 
+ 
+
+--- Page 21 ---
+ 
+ 11. Carty, C. L., Bhattacharya, S., Teumer, A., Hoffman, W., Smith, A. V., Liu, Y., ... & 
+Franceschini, N. (2017). Leukocyte telomere length and air pollution exposure in adult 
+women. Environmental Health Perspectives, 125 (4), 077008. 
+https://doi.org/10.1289/EHP1092  
+ 
+12. Valdes, A. M., Andrew, T., Gardner, J. P., Kimura, M., Oelsner, E., Cherkas, L. F., ... & 
+Spector, T. D. (2005). Obesity, cigarette smoking, and telomere length in women. The Lancet, 
+366(9486), 662 –664. https://doi.org/10.1016/S0140 -6736(05)66630 -5 
+ 
+13. McGrath, M., Wong, J. Y. Y., Michaud, D., Hunter, D. J., De Vivo, I. (2007). Telomere 
+length, cigarette smoking, and bladder cancer risk in men and women. Cancer Epidemiology, 
+Biomarkers & Prevention, 16 (4), 815 –819. https://doi.org/10.1158/1055 -9965.EPI -06-1032  
+ 
+14. Buxton, J. L., Walters, R. G., Visvikis -Siest, S., Meyre, D., Froguel, P., Blakemore, A. I. F. 
+(2011). Obesity and weight gain in young adults and telomere length. Obesity, 19 (4), 829 –
+834. https://doi.org/10.1038/oby.2010.244  
+ 
+15. Zalli, A., Carvalho, L. A., Lin, J., Hamer, M., Erusalimsky, J. D., Blackburn, E. H., & 
+Steptoe, A. (2014). Shorter telomeres with high telomerase activity are associated with raised 
+allostatic load and inflammation in post -traumatic stress disorder. Molecular Psychiatry, 
+19(8), 863 –869. https://doi.org/10.1038/mp.2013.141  
+ 
+16. Nettleton, J. A., Diez -Roux, A., Jenny, N. S., Fitzpatrick, A. L., Jacobs, D. R., & Shrager, S. 
+(2008). Dietary patterns, food groups, and telomere length in the Multi -Ethnic Study of 
+Atherosclerosis (MESA). The American Journal of Clinical Nutrition, 88 (5), 1405 –1412. 
+https://doi.org/10.3945/ajcn.2008.26429  
+ 
+17. García -Calzón, S., Moleres, A., Marcos, A., Campoy, C., Moreno, L. A., & Martínez, J. A. 
+(2015). Mediterranean diet and telomere length in adolescents. Nutrition, 31 (11–12), 1224 –
+1230. https://doi.org/10.1016/j.nut.2015.04.010  
+ 
+18. Ludlow, A. T., Zimmerman, J. B., Witkowski, S., Hearn, J. W., Hatfield, B. D., & Roth, S. M. 
+(2008). Relationship between physical activity level, telomere length, and telomerase activity. 
+Medicine and Science in Sports and Exercise, 40 (10), 1764 –1771. 
+https://doi.org/10.1249/MSS.0b013e31817c92aa  
+ 
+19. Cherkas, L. F., Hunkin, J. L., Kato, B. S., Richards, J. B., Gardner, J. P., Surdulescu, G. L., ... 
+& Spector, T. D. (2008). The association between physical activity in leisure time and 
+leukocyte telomere length. Archives of Internal Medicine, 168 (2), 154 –158. 
+https://doi.org/10.1001/archinternmed.2007.39  
+ 
+20. Jackowska, M., Hamer, M., Carvalho, L. A., & Steptoe, A. (2012). Short sleep duration is 
+associated with shorter telomere length in healthy men: Findings from the Whitehall II cohort 
+study. PLOS ONE, 7 (10), e47292. https://doi.org/10.1371/journal.pone.0047292  
+ 
+21. Cribbet, M. R., Carlisle, M., Cawthon, R. M., Uchino, B. N., Williams, P. G., Smith, T. W., & 
+Gunn, H. E. (2014). Cellular aging and restorative processes: Subjective sleep quality and 
+duration are associated with leukocyte telomere length in a population of midlife adults. 
+Sleep, 37 (2), 1 –6. https://doi.org/10.5665/sleep.3382  
+ 
+22. World Health Organization. (2021). WHO global air quality guidelines: Particulate matter 
+(PM₂.₅ and PM₁₀), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide . 
+https://www.who.int/publications/i/item/9789240034228  
+ 
+ 
+
+--- Page 22 ---
+ 
+ 23. Central Pollution Control Board. (2021). National Air Quality Monitoring Programme 
+(NAMP) report 2020 –2021 . Ministry of Environment, Forest and Climate Change, 
+Government of India. https://cpcb.nic.in  
+ 
+24. Ministry of Health and Family Welfare. (2021). National Family Health Survey – 5 (2019 –
+21): India fact sheet . Government of India. https://main.mohfw.gov.in  
+ 
+25. Ministry of Health and Family Welfare, Government of India, & World Health Organization. 
+(2017). Global Adult Tobacco Survey: India 2016 –17. https://ntcp.mohfw.gov.in  
+ 
+26. Ministry of Health and Family Welfare. (2022). National health profile 2022 . Central Bureau 
+of Health Intelligence, Government of India. https://cbhidghs.nic.in  
+ 
+27. Indian Council of Medical Research, Public Health Foundation of India, & Institute for 
+Health Metrics and Evaluation. (2017). India: Health of the nation’s states – The India state -
+level disease burden initiative . https://www.healthdata.org  
+ 
+28. National Centre for Disease Informatics and Research. (2020). Report of National Cancer 
+Registry Programme 2020 . Indian Council of Medical Research. https://ncdirindia.org  
+ 
