@@ -1,28 +1,28 @@
 {
-  "template_stats": {
-    "0": {
-      "count": 1,
-      "sum_reward": -4.0
-    },
-    "1": {
-      "count": 0,
-      "sum_reward": 0.0
-    },
-    "2": {
-      "count": 0,
-      "sum_reward": 0.0
-    },
-    "3": {
-      "count": 0,
-      "sum_reward": 0.0
-    },
-    "4": {
-      "count": 0,
-      "sum_reward": 0.0
-    },
-    "5": {
-      "count": 0,
-      "sum_reward": 0.0
+    "template_stats": {
+        "0": {
+            "count": 2,
+            "sum_reward": -0.7999999999999998
+        },
+        "1": {
+            "count": 3,
+            "sum_reward": -1.3999999999999995
+        },
+        "2": {
+            "count": 1,
+            "sum_reward": -2.1999999999999993
+        },
+        "3": {
+            "count": 1,
+            "sum_reward": 0.20000000000000107
+        },
+        "4": {
+            "count": 1,
+            "sum_reward": -8.4
+        },
+        "5": {
+            "count": 1,
+            "sum_reward": -0.40000000000000036
+        }
     }
-  }
 }
